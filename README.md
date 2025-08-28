@@ -23,17 +23,6 @@ Open the printed local URL to view the app.
 npm run build
 npm run preview
 ```
-
-## Deploy (Netlify)
-- Create a new site, link your repo (or drag & drop the `dist` folder).
-- Build command: `npm run build`
-- Publish directory: `dist`
-
-## Deploy (Vercel)
-- Import the repo, framework preset: **Vite**
-- Build command: `npm run build`
-- Output directory: `dist`
-
 ## Notes
 - API: https://openlibrary.org/search.json?q=<query>&limit=24
 - Styling is done with TailwindCSS.
